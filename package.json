@@ -1,0 +1,15 @@
+{
+  "name": "file-minifier",
+  "version": "1.0.0",
+  "description": "Recursively read and minify all text files in a folder",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "clean-css": "^5.3.3",
+    "html-minifier-terser": "^7.2.0",
+    "terser": "^5.31.0"
+  }
+}
